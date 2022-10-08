@@ -7,7 +7,7 @@ import plotly.express as px
 st.title("Poonam gaud")
 st.header("Python")
 st.write("MSC DSAi")
-df=pd.read_csv("C:/Users/Abhishek Gond/Desktop/poonam gaud/17_Crime_by_place_of_occurrence_2013.csv")
+df=pd.read_csv("17_Crime_by_place_of_occurrence_2013.csv")
 
 df
 st.write(df.head())
